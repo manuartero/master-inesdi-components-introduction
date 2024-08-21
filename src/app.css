@@ -12,6 +12,18 @@ main {
   --water-shadow-color: #9ad9ff;
   --poison-shadow-color: #b2ffb2;
   --fair-shadow-color: #ffb2b2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #242424;
+}
+
+.element .label {
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-bottom: 1em;
+  text-transform: uppercase;
 }
 
 .element .icon {
