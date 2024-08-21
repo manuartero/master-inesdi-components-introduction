@@ -1,42 +1,37 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+main {
+  display: flex;
+  background-color: #707070;
+  border-radius: 1em;
+  box-shadow: 0 0 0.5em #747474aa;
 }
 
-.logo {
+.element {
+  --electric-shadow-color: #ffe062;
+  --ground-shadow-color: #f7ae60;
+  --ice-shadhow-color: #b8f2ff;
+  --water-shadow-color: #9ad9ff;
+}
+
+.element .icon {
+  cursor: pointer;
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.element .icon-electric:hover {
+  filter: drop-shadow(0 0 1em var(--electric-shadow-color));
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.element .icon-ground:hover {
+  filter: drop-shadow(0 0 1em var(--ground-shadow-color));
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.element .icon-ice:hover {
+  filter: drop-shadow(0 0 1em var(--ice-shadhow-color));
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.element .icon-water:hover {
+  filter: drop-shadow(0 0 1em var(--water-shadow-color));
 }

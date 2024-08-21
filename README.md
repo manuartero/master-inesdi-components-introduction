@@ -1,8 +1,30 @@
-# React + Vite
+# Master INESDI 2024 / `components-introduction`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Week 1: React Components
 
-Currently, two official plugins are available:
+How React components enhance code reusability
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![](screenshot.png)
+
+From:
+
+```jsx
+<div className="element">
+  <img className="icon icon-electric" src={electricIcon} alt="electric type" />
+  ...
+</div>
+```
+
+To:
+
+```jsx
+<Element type="electric" />
+```
+
+---
+
+```bash
+git clone https://github.com/manuartero/master-inesdi-2024-components-introduction.git
+cd master-inesdi-2024-components-introduction
+npm i && npm run dev
+```
