@@ -10,6 +10,8 @@ main {
   --ground-shadow-color: #f7ae60;
   --ice-shadhow-color: #b8f2ff;
   --water-shadow-color: #9ad9ff;
+  --poison-shadow-color: #b2ffb2;
+  --fair-shadow-color: #ffb2b2;
 }
 
 .element .icon {
@@ -34,4 +36,12 @@ main {
 
 .element .icon-water:hover {
   filter: drop-shadow(0 0 1em var(--water-shadow-color));
+}
+
+.element .icon-poison:hover {
+  filter: drop-shadow(0 0 1em var(--poison-shadow-color));
+}
+
+.element .icon-fairy:hover {
+  filter: drop-shadow(0 0 1em var(--fair-shadow-color));
 }
