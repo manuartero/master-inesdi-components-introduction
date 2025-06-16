@@ -1,4 +1,4 @@
-# Master INESDI 2024 / `components-introduction`
+# Master INESDI 2025 / `components-introduction`
 
 ## Week 1: React Components
 
