@@ -24,7 +24,7 @@ To:
 ---
 
 ```bash
-git clone https://github.com/manuartero/master-inesdi-2024-components-introduction.git
+git clone https://github.com/manuartero/master-inesdi-components-introduction.git
 cd master-inesdi-2024-components-introduction
 npm i && npm run dev
 ```
